@@ -2,9 +2,12 @@
   "name": "job-tracker",
   "version": "1.0.0",
   "description": "practice with React and Redux by building a job tracker",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "webpack -w",
+    "devmon": "webpack -w & nodemon server.js"
   },
   "repository": {
     "type": "git",
