@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=MedievalSharp');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Shadow');
 
 html, body {
     height: 100%;
     margin: 0 auto;
 }
 body {
-    font-family: 'MedievalSharp', cursive;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2ebce+0,fcfcfc+16,fcfcfc+16,f9f9f9+52,f9f9f9+82,f2ebce+98 */
     background: #f2ebce; /* Old browsers */
     background: -moz-linear-gradient(top, #f2ebce 0%, #fcfcfc 16%, #fcfcfc 16%, #f9f9f9 52%, #f9f9f9 82%, #f2ebce 98%); /* FF3.6-15 */
@@ -14,4 +13,22 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2ebce', endColorstr='#f2ebce',GradientType=0 ); /* IE6-9 */
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* main page */
+header {
+    font-family: "Londrina Shadow";
+    margin-top: 20%;
+    text-align: center;
+    font-size: 43px;
+}
+
+/* footer */
+#footer {
+    color: #cfcfcf;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
 }
